@@ -80,19 +80,23 @@
 
 import java.util.Scanner;
 
-public class do_while_loop {
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-
-    do {
-      System.out.print("Enter a number: ");
-      int n = sc.nextInt();
-      if (n % 10 == 0) {
-        System.out.println("Its a multiple of 10 , so continuing the loop");
-        continue;
-      }
-      System.out.println(n);
-    } while (true);
-    
-  }
+public class DoWhileLoop {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n;
+        
+        do {
+            System.out.print("Enter a number: ");
+            n = sc.nextInt();
+            
+            if (n % 10 == 0) {
+                System.out.println("Its a multiple of 10, loop ending.");
+                break; // exit the loop
+            }
+            
+            System.out.println("You entered: " + n);
+        } while (true);
+        
+        sc.close();
+    }
 }
