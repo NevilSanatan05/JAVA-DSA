@@ -101,23 +101,80 @@
 
 
 //decimal to Binary
-public class Prac {
+// public class Prac {
   
-    public static void DecToBin(int dec) {
-        int original = dec;   // store original value
-        StringBuilder bin = new StringBuilder();
+//     public static void DecToBin(int dec) {
+//         int original = dec;   // store original value
+//         StringBuilder bin = new StringBuilder();
 
-        while (dec > 0) {
-            int rem = dec % 2;
-            bin.append(rem);
-            dec /= 2;
-        }
+//         while (dec > 0) {
+//             int rem = dec % 2;
+//             bin.append(rem);
+//             dec /= 2;
+//         }
 
-        System.out.println("Binary equivalent of " + original + " is: " + bin.reverse());
+//         System.out.println("Binary equivalent of " + original + " is: " + bin.reverse());
+//     }
+
+//     public static void main(String[] args) {
+//         int dec = 10;
+//         DecToBin(dec);
+//     }
+// }
+
+
+// public class Prac{
+//     public static boolean isEven(int a){
+//     return a%2==0;
+//     }
+//     public static void main(String[] args) {
+//        int num = 3;
+//        if(isEven(num)){
+//         System.out.println("Even number");
+//        }
+//        else{
+//         System.out.println("Odd number");
+//        }
+//     }
+// }
+
+
+// public class Prac {
+//     public static int Pal(int a) {
+//         int original = a;
+//         int rev = 0;
+//         if(original <0){
+//             return -1;
+//         }
+//         while(a>0){
+//             int lastDigit = a%10;
+//             rev = rev*10+lastDigit;
+//             a=a/10;
+//         }
+//         return rev;
+//     }
+
+//     public static void main(String[] args) {
+//        System.out.println(Pal(-53728));
+//     }
+// }
+
+
+public class Prac {
+    public static int Sum(int a) {
+
+      int original = a;
+      int sum = 0;
+      int lastdigit = original%10;
+      while(a>0){
+        sum = sum +lastdigit;
+        a=a/10;
+        lastdigit = a%10;   
+      }
+      return sum;
     }
 
     public static void main(String[] args) {
-        int dec = 10;
-        DecToBin(dec);
+       System.out.println(Sum(1234));
     }
 }
