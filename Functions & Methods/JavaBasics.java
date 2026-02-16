@@ -126,3 +126,10 @@
 //     System.out.println(Fact(3));
 //   }
 // }
+
+
+//Methods - 1.User Defined Functions
+//          2.Built in Functions
+
+//Function Overloading - Multiple functions with same name but diff parameters.
+
