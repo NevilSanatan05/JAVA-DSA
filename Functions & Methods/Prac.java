@@ -160,21 +160,21 @@
 // }
 
 
-public class Prac {
-    public static int Sum(int a) {
+// public class Prac {
+//     public static int Sum(int a) {
 
-      int original = a;
-      int sum = 0;
-      int lastdigit = original%10;
-      while(a>0){
-        sum = sum +lastdigit;
-        a=a/10;
-        lastdigit = a%10;   
-      }
-      return sum;
-    }
+//       int original = a;
+//       int sum = 0;
+//       int lastdigit = original%10;
+//       while(a>0){
+//         sum = sum +lastdigit;
+//         a=a/10;
+//         lastdigit = a%10;   
+//       }
+//       return sum;
+//     }
 
-    public static void main(String[] args) {
-       System.out.println(Sum(1234));
-    }
-}
+//     public static void main(String[] args) {
+//        System.out.println(Sum(1234));
+//     }
+// }
