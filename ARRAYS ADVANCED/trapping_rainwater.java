@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class trapped {
+public class trapping_rainwater {
 
     public static int trapped(int height[]) {
 
@@ -38,4 +38,5 @@ public class trapped {
         int height[] = {4, 2, 0, 6, 3, 2, 5};
         System.out.println(trapped(height));
     }
+  
 }
