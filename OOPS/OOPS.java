@@ -1,30 +1,30 @@
-public class OOPS {
-public static void main(String[] args) {
-  Pen p1 = new Pen();
-  
-}
-}
+// public class OOPS {
+// public static void main(String[] args) {
+//   Pen p1 = new Pen();
 
-class Pen {
-  String color;
-  int tip;
+// }
+// }
 
-  void setColor(String newColor) {
-    color = newColor;
-  }
+// class Pen {
+//   String color;
+//   int tip;
 
-  void setTip(int newTip) {
-    tip = newTip;
-  }
-}
+//   void setColor(String newColor) {
+//     color = newColor;
+//   }
 
-class Student {
-  String name;
-  int age;
-  float percentage;
+//   void setTip(int newTip) {
+//     tip = newTip;
+//   }
+// }
 
-  void calcPercentage(int phy, int chem, int math) {
-    percentage = (phy + chem + math);
+// class Student {
+//   String name;
+//   int age;
+//   float percentage;
 
-  }
-}
+//   void calcPercentage(int phy, int chem, int math) {
+//     percentage = (phy + chem + math);
+
+//   }
+// }
