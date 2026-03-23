@@ -8,9 +8,9 @@
 //     p1.setColor("Yellow");
 //     System.out.println(p1.getColor());
 
-    // BankAccount myAcc = new BankAccount();
-    // myAcc.username = "nevilsanatan";
-    // myAcc.setPassword("abcdefghi")
+// BankAccount myAcc = new BankAccount();
+// myAcc.username = "nevilsanatan";
+// myAcc.setPassword("abcdefghi")
 //   }
 // }
 
@@ -50,4 +50,24 @@
 // percentage = (phy + chem + math);
 
 // }
+// }
+
+// public class OOPS {
+//   public static void main(String[] args) {
+//     Student s = new Student();
+//     s.setName("Nevil Sanatan");
+//     System.out.println(s.getName());
+//   }
+// }
+
+// class Student {
+//   private String name;
+
+//   public String getName() {
+//     return name;
+//   }
+
+//   public void setName(String name) {
+//     this.name = name;
+//   }
 // }
