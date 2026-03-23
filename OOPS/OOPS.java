@@ -1,30 +1,53 @@
 // public class OOPS {
-// public static void main(String[] args) {
-//   Pen p1 = new Pen();
+//   public static void main(String[] args) {
+//     Pen p1 = new Pen();
+//     p1.setColor("Blue");
+//     System.out.println(p1.getColor());
+//     p1.setTip(1);
+//     System.out.println(p1.getTip());
+//     p1.setColor("Yellow");
+//     System.out.println(p1.getColor());
 
+    // BankAccount myAcc = new BankAccount();
+    // myAcc.username = "nevilsanatan";
+    // myAcc.setPassword("abcdefghi")
+//   }
+// }
+
+// class BankAccount{
+// public String username;
+// private String password;
+// default void setPassword(String pwd) {
+// password = pwd;
 // }
 // }
 
 // class Pen {
-//   String color;
-//   int tip;
+//   private String color;
+//   private int tip;
 
+//   String getColor() {
+//     return this.color;
+//   }
+//  int getTip(){
+// return this.tip;
+//  }
 //   void setColor(String newColor) {
-//     color = newColor;
+//     this.color = newColor;
 //   }
 
-//   void setTip(int newTip) {
-//     tip = newTip;
+//   void setTip(int tip) {
+//     this.tip = tip;
 //   }
 // }
 
 // class Student {
-//   String name;
-//   int age;
-//   float percentage;
+// String name;
+// int age;
+// float percentage;
 
-//   void calcPercentage(int phy, int chem, int math) {
-//     percentage = (phy + chem + math);
+// void calcPercentage(int phy, int chem, int math) {
+// percentage = (phy + chem + math);
 
-//   }
+// }
 // }
