@@ -194,22 +194,70 @@ import java.util.Scanner;
 //   }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class Prac {
+// public class Prac {
 
-  public static int Sum() {
-    Scanner sc = new Scanner(System.in);
-    System.out.print("Enter the value of a and b are : ");
-    int a = sc.nextInt();
-    int b = sc.nextInt();
-    int sum = a + b;
-    return sum;
-   
-  }
+//   public static int Sum() {
+//     Scanner sc = new Scanner(System.in);
+//     System.out.print("Enter the value of a and b are : ");
+//     int a = sc.nextInt();
+//     int b = sc.nextInt();
+//     int sum = a + b;
+//     return sum;
 
-  public static void main(String[] args) {
-    System.out.println(Sum());
-   
-  }
-}
+//   }
+
+//   public static void main(String[] args) {
+//     System.out.println(Sum());
+//   }
+// }
+
+// public class Prac {
+//   public static int Sum(int a, int b) {
+//     return a + b;
+//   }
+
+//   public static void main(String[] args) {
+//     System.out.println(Sum(3, 4));
+//   }
+// }
+
+
+// public class Prac{
+//   public static void greet(String name){ //parameter
+//     System.out.println("Hello "+name);
+//   }
+//   public static void main(String[] args) {
+//     greet("John"); //argument
+//   }
+// }
+
+//Call by value
+// public class Prac{
+//   public static void increment(int x){
+//     x = 100;
+//   }
+
+//   public static void main(String[] args) {
+//     int a = 10;
+//     increment(a);
+//     System.out.println(a); //Output will be 10 because the value of a is not changed in the main method
+
+//   }
+// }
+
+
+//In-built Methods and User-defined Methods
+// public class Prac {
+//   public static void r(){
+//     System.out.println( Math.sqrt(16));;
+//   }
+//   public static int w(int x){
+//    return x*x;
+//   }
+//   public static void main(String[] args) {
+//     r();
+//     System.out.println(w(5));
+//   }
+// }
